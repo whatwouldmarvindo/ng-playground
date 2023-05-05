@@ -1,0 +1,34 @@
+p {
+  font-size: 18px;
+  &.groß {
+    font-size: 30px;
+    & > button {
+      font-size: 30px;
+    }
+  }
+}
+
+.small-icon-button {
+  width: 48px !important;
+  height: 48px !important;
+  padding: 0px !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+
+  & > *[role="img"] {
+    width: 48px;
+    height: 48px;
+    font-size: 48px;
+
+    svg {
+      width: 48px;
+      height: 48px;
+    }
+  }
+
+  .mat-mdc-button-touch-target {
+    width: 48px !important;
+    height: 48px !important;
+  }
+}
